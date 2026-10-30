@@ -24,3 +24,5 @@ An investigative report on the Opera GX browser's built-in "free VPN": what it a
 ## Scope and limits
 
 This repository contains the finished report only; there is no code and nothing to run. The report's findings are its author's synthesis of the 49 sources in its reference list (accessed 8 July 2025, per the report). Those sources were not independently re-verified for this README; the section summaries and verdicts above are taken directly from the report's own text.
+
+A note from me on dates: I have left the PDF exactly as it was exported, and I read its claims as a snapshot from those July 2025 access dates. The logging section is the part most likely to date first, because it rests on what Opera claimed at that point and on an audit of that moment. If Opera's claims change again, the report still shows what stood on the record then, which is the point of keeping it unchanged.
