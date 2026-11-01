@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-label="Mimeograph run: sheets feed from the machine to a growing stack, each paler than the last until the drum is re-inked, while a long arm stapler works at the corner">
+<rect width="1200" height="340" fill="#e7dcc2"/>
+<!-- back layer: shelf blocks and the bright rear window, static -->
+<g fill="#c9bb9c"><rect x="30" y="26" width="300" height="18"/><rect x="52" y="52" width="34" height="52"/><rect x="94" y="46" width="28" height="58"/><rect x="130" y="54" width="40" height="50"/><rect x="178" y="48" width="30" height="56"/><rect x="216" y="52" width="36" height="52"/></g>
+<rect x="950" y="14" width="210" height="150" fill="#f7f3e4" stroke="#a2936f" stroke-width="4"/>
+<line x1="1055" y1="14" x2="1055" y2="164" stroke="#a2936f" stroke-width="3"/>
+<!-- table -->
+<rect y="238" width="1200" height="102" fill="#8a6a44"/>
+<line x1="0" y1="238" x2="1200" y2="238" stroke="#6e5230" stroke-width="4"/>
+<!-- machine at centre left -->
+<g>
+<rect x="90" y="150" width="240" height="70" fill="#4a4850"/>
+<rect x="118" y="104" width="180" height="52" rx="24" fill="#47206e"/>
+<rect x="118" y="104" width="180" height="52" rx="24" fill="none" stroke="#2e1448" stroke-width="3"/>
+<rect x="300" y="122" width="26" height="10" fill="#2c2a30"/>
+<line x1="326" y1="127" x2="346" y2="127" stroke="#2c2a30" stroke-width="6"/><line x1="346" y1="127" x2="346" y2="104" stroke="#2c2a30" stroke-width="6"/><circle cx="346" cy="98" r="7" fill="#211f24"/>
+</g>
+<!-- operator chair, rocking once at the re-ink pause -->
+<g>
+<rect x="392" y="168" width="52" height="58" fill="#5c5148"/>
+<animateTransform attributeName="transform" type="rotate" values="0 418 226; 0 418 226; -4 418 226; 0 418 226; 0 418 226" keyTimes="0;0.46;0.52;0.58;1" dur="36s" repeatCount="indefinite"/>
+</g>
+<!-- the run: sheets feeding machine to stack, paler then re-inked -->
+<g fill="#f2ecda" stroke="#b3a888">
+<g><rect x="0" y="0" width="120" height="76"/><rect x="12" y="12" width="70" height="7" fill="#5b2a86"><animate attributeName="opacity" values="0.95;0.95;0.5;0.5;0.95" keyTimes="0;0.3;0.45;0.6;1" dur="36s" repeatCount="indefinite"/></rect>
+<animateTransform attributeName="transform" type="translate" values="330,150; 700,168; 700,168; 330,150" keyTimes="0;0.3;0.92;1" dur="36s" repeatCount="indefinite"/></g>
+<g><rect x="0" y="0" width="120" height="76"/><rect x="12" y="12" width="70" height="7" fill="#5b2a86"><animate attributeName="opacity" values="0.7;0.7;0.3;0.3;0.7" keyTimes="0;0.36;0.5;0.66;1" dur="36s" repeatCount="indefinite"/></rect>
+<animateTransform attributeName="transform" type="translate" values="330,150; 330,150; 716,160; 716,160; 330,150" keyTimes="0;0.12;0.42;0.94;1" dur="36s" repeatCount="indefinite"/></g>
+<g><rect x="0" y="0" width="120" height="76"/><rect x="12" y="12" width="70" height="7" fill="#5b2a86"><animate attributeName="opacity" values="0.45;0.45;0.9;0.9;0.45" keyTimes="0;0.55;0.7;0.85;1" dur="36s" repeatCount="indefinite"/></rect>
+<animateTransform attributeName="transform" type="translate" values="330,150; 330,150; 732,152; 732,152; 330,150" keyTimes="0;0.24;0.54;0.96;1" dur="36s" repeatCount="indefinite"/></g>
+</g>
+<!-- growing stack at centre right -->
+<g fill="#f2ecda" stroke="#b3a888">
+<rect x="706" y="212" width="150" height="10"/><rect x="710" y="202" width="150" height="10"/><rect x="706" y="192" width="150" height="10"/>
+<rect x="712" y="182" width="150" height="10"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.5;0.56;0.95;1" dur="36s" repeatCount="indefinite"/></rect>
+</g>
+<!-- loose sheet corner at lower left, fluttering when the stapler lifts -->
+<path d="M36,318 q60,-16 118,-6 l0,22 l-118,0 z" fill="#f2ecda" stroke="#b3a888">
+<animateTransform attributeName="transform" type="rotate" values="0 40 330; 0 40 330; -5 40 330; 0 40 330; 0 40 330; -5 40 330; 0 40 330" keyTimes="0;0.28;0.33;0.4;0.78;0.83;1" dur="36s" repeatCount="indefinite"/>
+</path>
+<!-- long arm stapler at lower right: drives down twice per loop -->
+<g>
+<rect x="1010" y="286" width="150" height="14" fill="#55535a"/>
+<g><rect x="1010" y="252" width="150" height="16" rx="6" fill="#a42a24"/>
+<animateTransform attributeName="transform" type="rotate" values="0 1020 268; 0 1020 268; 7 1020 268; 0 1020 268; 0 1020 268; 7 1020 268; 0 1020 268" keyTimes="0;0.22;0.27;0.36;0.72;0.77;1" dur="36s" repeatCount="indefinite"/></g>
+<rect x="1030" y="272" width="110" height="14" fill="#f2ecda" stroke="#b3a888"/>
+</g>
+</svg>

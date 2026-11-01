@@ -1,12 +1,25 @@
-![OperaVPN-Analysis](banner.png)
+![Intro: a duplication table with one damp freshly printed sheet, thumbprint at its corner](intro-banner.png)
+
 
 # OperaVPN-Analysis
 
+![Banner](banner.png)
+
+![Scene](scene.svg)
+
+> **TEST** A free privacy promise, reprinted here and handled while its ink was still wet. What smeared under the handling is the finding.
+
 An investigative report on the Opera GX browser's built-in "free VPN": what it actually does technically, whether it leaks data, how Opera's logging claims have changed, and what Opera's corporate ownership means for trust.
+
+
+![Separator](sep-heavy.svg)
 
 ## The report
 
 - [Opera GX VPN: Trustworthy?](Opera-GX-VPN-Trustworthy.pdf) - the full report as a PDF (21 pages, exported from Google Docs).
+
+
+![Separator](sep-light.svg)
 
 ## What it covers
 
@@ -16,16 +29,25 @@ An investigative report on the Opera GX browser's built-in "free VPN": what it a
 4. **Corporate ownership** - Opera's 2016 acquisition by a Chinese consortium led by Kunlun Tech, the CFIUS-ordered Grindr divestiture as a precedent, and China's National Intelligence Law, weighed against Opera's Norwegian jurisdiction and GDPR defense.
 5. **Final verdict and recommendations** - acceptable and dangerous use cases by risk profile.
 
+
+![Separator](sep-light.svg)
+
 ## Verdict, in short
 
 - On effectiveness: **No.** The free service is not an effective tool for comprehensive data protection. It is acceptable only for casual IP masking, simple geo-restriction bypassing, and light encryption on public Wi-Fi, and it is dangerous for torrenting, sensitive activity, or protection against targeted adversaries.
 - On trustworthiness: **Yes, too shaky for privacy-first users.** The ownership structure creates a risk that no technical audit can retire, even though the current no-log configuration was independently audited.
+
+
+![Separator](sep-light.svg)
 
 ## Scope and limits
 
 This repository contains the finished report only; there is no code and nothing to run. The report's findings are its author's synthesis of the 49 sources in its reference list (accessed 8 July 2025, per the report). Those sources were not independently re-verified for this README; the section summaries and verdicts above are taken directly from the report's own text.
 
 A note from me on dates: I have left the PDF exactly as it was exported, and I read its claims as a snapshot from those July 2025 access dates. The logging section is the part most likely to date first, because it rests on what Opera claimed at that point and on an audit of that moment. If Opera's claims change again, the report still shows what stood on the record then, which is the point of keeping it unchanged.
+
+
+![Separator](sep-light.svg)
 
 ## Files
 

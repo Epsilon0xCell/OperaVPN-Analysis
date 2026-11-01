@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 44" role="img" aria-label="Fading violet band with three staples and a thick stack of copies">
+<defs><linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#47206e"/><stop offset="1" stop-color="#e7dcc2"/></linearGradient></defs>
+<rect x="10" y="16" width="1000" height="12" fill="url(#fade)"/>
+<g stroke="#6e5230" stroke-width="3" fill="none"><path d="M120,8 v10 M120,8 h14 M134,8 v10"/><path d="M560,8 v10 M560,8 h14 M574,8 v10"/><path d="M960,8 v10 M960,8 h14 M974,8 v10"/></g>
+<g fill="#f2ecda" stroke="#8a7c5c" stroke-width="1.5"><rect x="1052" y="26" width="86" height="7"/><rect x="1055" y="19" width="86" height="7"/><rect x="1052" y="12" width="86" height="7"/><rect x="1055" y="5" width="86" height="7"/></g>
+</svg>
