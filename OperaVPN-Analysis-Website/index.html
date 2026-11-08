@@ -3,48 +3,49 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>OperaVPN-Analysis: the duplicated issue</title>
+<title>OperaVPN-Analysis: the examination lamp</title>
 <style>
-@font-face{font-family:'Archivo';src:url('fonts/Archivo.ttf') format('truetype')}
-@font-face{font-family:'Bitcount Ink';src:url('fonts/BitcountInk.ttf') format('truetype')}
+@font-face{font-family:'Special Elite';src:url('fonts/SpecialElite-Regular.ttf') format('truetype')}
+@font-face{font-family:'Source Sans 3';src:url('fonts/SourceSans3-Regular.ttf') format('truetype');font-weight:400}
+@font-face{font-family:'Source Sans 3';src:url('fonts/SourceSans3-Bold.ttf') format('truetype');font-weight:700}
 *{box-sizing:border-box}
-body{margin:0;background:#e7dcc2;color:#1a1820;font-family:'Archivo',sans-serif;line-height:1.65}
-.oakbar{background:#8a6a44;color:#f2ecda;padding:12px 22px;font-size:.9rem}
+body{margin:0;background:#0d0b14;color:#1c1830;font-family:'Source Sans 3',sans-serif;line-height:1.65}
+.oakbar{background:#17122b;color:#efeaff;padding:12px 22px;font-size:.9rem;border-bottom:3px solid #6d28c9}
 .oakbar b{letter-spacing:1px}
 .issue{max-width:760px;margin:0 auto;padding:26px 22px 10px}
-h1{font-family:'Bitcount Ink',monospace;color:#47206e;font-size:2rem;letter-spacing:2px;margin:.2em 0 .1em}
-.sub{color:#4c4438;margin:0 0 8px}
-h2{font-family:'Bitcount Ink',monospace;color:#47206e;letter-spacing:2px;font-size:1.25rem;margin:0 0 10px}
-.leaf{background:#f2ecda;border:1px solid #c4b491;padding:22px 24px;margin:0 0 6px;box-shadow:4px 4px 0 #ddd0ae,8px 8px 0 #e2d6b4}
+h1{font-family:'Special Elite',monospace;color:#e9e2ff;font-size:2rem;letter-spacing:2px;margin:.2em 0 .1em}
+.sub{color:#b7aed6;margin:0 0 8px}
+h2{font-family:'Special Elite',monospace;color:#3b1470;letter-spacing:2px;font-size:1.25rem;margin:0 0 10px}
+.leaf{background:#f4f0ff;border:1px solid #8d7fc9;padding:22px 24px;margin:0 0 6px;box-shadow:4px 4px 0 #241a4d,8px 8px 0 #1a1238}
 .leaf.flat{box-shadow:none}
-.band{height:12px;background:linear-gradient(90deg,#47206e,#e7dcc2);margin:22px 0;position:relative}
-.band i{position:absolute;top:-7px;width:14px;height:9px;border:3px solid #6e5230;border-bottom:none}
+.band{height:12px;background:linear-gradient(90deg,#6d28c9,#a678f5);margin:22px 0;position:relative}
+.band i{position:absolute;top:-7px;width:14px;height:9px;border:3px solid #3a2c14;border-bottom:none}
 .band i:nth-child(1){left:12%}.band i:nth-child(2){left:48%}.band i:nth-child(3){left:84%}
 .band.short{width:34%}
 .contents{list-style:none;margin:0;padding:0}
-.contents li{display:flex;justify-content:space-between;gap:14px;border-bottom:1px solid #b98fd6;padding:8px 2px}
-.contents .pg{color:#47206e;font-family:'Bitcount Ink',monospace;white-space:nowrap}
-.finding{font-family:'Bitcount Ink',monospace;font-size:1.3rem;color:#2e1448;line-height:1.5}
+.contents li{display:flex;justify-content:space-between;gap:14px;border-bottom:1px solid #b6a5e8;padding:8px 2px}
+.contents .pg{color:#3b1470;font-family:'Special Elite',monospace;white-space:nowrap}
+.finding{font-family:'Special Elite',monospace;font-size:1.3rem;color:#2a0d52;line-height:1.5}
 table{width:100%;border-collapse:collapse}
-td{padding:9px 10px;border-bottom:1px solid #7a4fa3;vertical-align:top}
+td{padding:9px 10px;border-bottom:1px solid #7a5fc0;vertical-align:top}
 td.claim{font-family:Georgia,serif;font-style:italic;width:44%}
-.tab{display:inline-block;border:2px solid #5b2a86;color:#47206e;padding:9px 18px;text-decoration:none;font-family:'Bitcount Ink',monospace;letter-spacing:1px;border-top-style:dashed;margin:6px 10px 6px 0;background:transparent}
-.tab:hover{background:linear-gradient(90deg,#d9c6f2,#efe6fa)}
-.slip{display:inline-block;background:#f2ecda;border:1px solid #a89a72;padding:8px 16px;color:#1a1820;text-decoration:none;position:relative;margin:6px 0}
-.slip::after{content:'';position:absolute;left:0;bottom:0;border-style:solid;border-width:10px 10px 0 0;border-color:transparent #e7dcc2 transparent transparent;transform:rotate(90deg)}
-a.lnk{color:#1a1820;text-decoration:none}
-a.lnk::before{content:'';display:inline-block;width:11px;height:8px;border:2.5px solid #6e5230;border-bottom:none;margin-right:8px;vertical-align:2px}
-a.lnk:hover{color:#5b2a86}
+.tab{display:inline-block;border:2px solid #5b2a86;color:#3b1470;padding:9px 18px;text-decoration:none;font-family:'Special Elite',monospace;letter-spacing:1px;border-top-style:dashed;margin:6px 10px 6px 0;background:transparent}
+.tab:hover{background:linear-gradient(90deg,#e3d7ff,#f6f1ff)}
+.slip{display:inline-block;background:#f4f0ff;border:1px solid #8d7fc9;padding:8px 16px;color:#1c1830;text-decoration:none;position:relative;margin:6px 0}
+.slip::after{content:'';position:absolute;left:0;bottom:0;border-style:solid;border-width:10px 10px 0 0;border-color:transparent #0d0b14 transparent transparent;transform:rotate(90deg)}
+a.lnk{color:#3b1470;text-decoration:none}
+a.lnk::before{content:'';display:inline-block;width:11px;height:8px;border:2.5px solid #6d28c9;border-bottom:none;margin-right:8px;vertical-align:2px}
+a.lnk:hover{color:#6d28c9}
 a.lnk:hover::before{transform:rotate(-7deg)}
-.verdict{border-top:4px solid #a42a24;border-bottom:4px solid #a42a24;padding:16px 4px}
-footer{background:#8a6a44;color:#f2ecda;margin-top:26px;padding:16px 22px;font-size:.9rem}
+.verdict{border-top:4px solid #e8c832;border-bottom:4px solid #e8c832;padding:16px 4px}
+footer{background:#17122b;color:#efeaff;margin-top:26px;padding:16px 22px;font-size:.9rem}
 .diagram{text-align:center}
 </style>
 </head>
 <body>
-<div class="oakbar"><b>OPERA GX VPN: TRUSTWORTHY?</b> &nbsp; An investigative report, duplicated for reading.</div>
+<div class="oakbar"><b>OPERA GX VPN: TRUSTWORTHY?</b> &nbsp; An investigative report, held under the ultraviolet lamp.</div>
 <div class="issue">
-<img src="assets/banner.png" alt="The duplication table with its fans of copies" style="width:100%;height:auto;border:1px solid #c4b491">
+<img src="assets/banner.png" alt="A printed report page pinned flat on a black examination bench under a violet ultraviolet lamp, pale fibres glowing across the sheet, a darker hidden patch revealed at its center, black gloved hands holding the page steady" style="width:100%;height:auto;border:1px solid #8d7fc9">
 <h1>OperaVPN-Analysis</h1>
 <p class="sub">A twenty one page investigation asking whether the free browsing protection bundled with Opera GX deserves trust, and answering that it behaves as a browser only HTTPS proxy rather than a full tunnel.</p>
 <div class="band"><i></i><i></i><i></i></div>
@@ -112,13 +113,13 @@ footer{background:#8a6a44;color:#f2ecda;margin-top:26px;padding:16px 22px;font-s
 <p><strong>On trustworthiness: too shaky for privacy-first users.</strong> The ownership structure creates a risk that no technical audit can retire, even though the current no-log configuration was independently audited.</p>
 </div>
 <p>
-<a class="tab" href="https://github.com/Epsilon0xCell/OperaVPN-Analysis/blob/main/Opera-GX-VPN-Trustworthy.pdf">Take home the stapled copy: the full report (PDF, 21 pages)</a>
+<a class="tab" href="https://github.com/Epsilon0xCell/OperaVPN-Analysis/blob/main/Opera-GX-VPN-Trustworthy.pdf">Take the examined copy: the full report (PDF, 21 pages)</a>
 <a class="tab" href="https://github.com/Epsilon0xCell/OperaVPN-Analysis">The repo on GitHub</a>
 </p>
 <p><a class="lnk" href="https://github.com/Epsilon0xCell/OperaVPN-Analysis/tree/main/OperaVPN-Analysis-Visuals">The visuals folder in the repo</a></p>
 <p class="sub">Scope note from the report itself: this repository contains the finished report only; there is no code and nothing to run. Its findings are the author's synthesis of the 49 sources in its reference list, accessed 8 July 2025.</p>
 </section>
 </div>
-<footer>OperaVPN-Analysis: the run fades, the verdict stays legible. Fonts: Archivo and Bitcount Ink (SIL Open Font License 1.1, license beside each font file).</footer>
+<footer>OperaVPN-Analysis: under the lamp, the finding stays legible. Fonts: Special Elite (Apache License 2.0) and Source Sans 3 (SIL Open Font License 1.1), license beside each font file.</footer>
 </body>
 </html>

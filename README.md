@@ -1,13 +1,15 @@
-![Intro: a duplication table with one damp freshly printed sheet, thumbprint at its corner](intro-banner.png)
+![Intro: the ultraviolet lamp swung low over one corner of the pinned page, the revealed dark patch sharp against the glowing sheet and two yellow marker lines drawn beside the finding](intro-banner.png)
 
 
 # OperaVPN-Analysis
 
-![Banner](banner.png)
+<p align="center"><img src="logo.png" alt="OperaVPN-Analysis logo: a single sheet of paper under ultraviolet light in a dark room, the page flaring violet white with one irregular green and yellow fluorescent smudge showing through at its center" width="200"></p>
+
+![Banner: a printed report page pinned flat on a black examination bench under a violet ultraviolet lamp, pale fibres glowing across the sheet, a darker hidden patch revealed at its center, black gloved hands holding the page steady](banner.png)
 
 ![Scene](scene.svg)
 
-> **TEST** A free privacy promise, reprinted here and handled while its ink was still wet. What smeared under the handling is the finding.
+> **TEST** A free privacy promise, pinned here under the examination lamp. What the ultraviolet light shows through the sheet is the finding.
 
 An investigative report on the Opera GX browser's built-in "free VPN": what it actually does technically, whether it leaks data, how Opera's logging claims have changed, and what Opera's corporate ownership means for trust.
 
