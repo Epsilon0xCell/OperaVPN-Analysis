@@ -3,7 +3,7 @@
 
 # OperaVPN-Analysis
 
-<p align="center"><img src="logo.png" alt="OperaVPN-Analysis logo: a single sheet of paper under ultraviolet light in a dark room, the page flaring violet white with one irregular green and yellow fluorescent smudge showing through at its center" width="200"></p>
+<p align="center"><img src="logo.png" alt="OperaVPN-Analysis logo: a single sheet of paper under ultraviolet light in a dark room, the page flaring violet white with one irregular dark violet patch showing through at its center, its edges soft and feathered" width="200"></p>
 
 ![Banner: a printed report page pinned flat on a black examination bench under a violet ultraviolet lamp, pale fibres glowing across the sheet, a darker hidden patch revealed at its center, black gloved hands holding the page steady](banner.png)
 
